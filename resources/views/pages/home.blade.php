@@ -9,11 +9,13 @@
 		@include('components.jumbo', ['content' => config('app.name', 'Transitlounge')] )
 		@guest
 			@if (Route::has('register'))
-				<a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal uppercase">{{ __('auth.register') }}</a>
+				{{-- <a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal uppercase">{{ __('auth.register') }}</a> --}}
+				<a href="{{ route('register') }}" class="font-bold text-lg mb-2 uppercase border px-3 py-2 rounded bg-button">{{ __('auth.register') }}</a>
 			@endif
 		@else
 			<h2>@lang("page.home.welcome")</h2>
 		@endguest
+
 	</div>
 @endsection
 @section('scripts')
