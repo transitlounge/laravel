@@ -78,8 +78,22 @@ and push
 `git push origin master`
 
 ## NEW REPO
+with pull
+```
 mkdir
 git init
 git pull https://github.com/transitlounge/laravel.git master
-git remote add upstream https://github.com/transitlounge/laravel.git
 git fetch upstream
+```
+when changes
+
+`git pull upstream master` 
+
+```
+or use the github templete to copy/fork the project
+but have not gotten the git pull upstream working here
+```
+git clone https://github.com/transitlounge/test.git
+git remote add upstream https://github.com/transitlounge/laravel.git
+git pull upstream master --allow-unrelated-histories
+```
