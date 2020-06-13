@@ -76,3 +76,10 @@ Merge upstream with the appropriate local branch
 and push
 
 `git push origin master`
+
+## NEW REPO
+mkdir
+git init
+git pull https://github.com/transitlounge/laravel.git master
+git remote add upstream https://github.com/transitlounge/laravel.git
+git fetch upstream
