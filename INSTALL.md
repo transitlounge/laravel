@@ -51,3 +51,24 @@ php artisan ide-helper:generate
 php artisan ide-helper:meta
 php artisan ide-helper:models --nowrite
 ```
+
+## GIT 
+We want this transitlounge/laravel to follow changes in laravel/laravel
+we setup the upsteam first:
+```
+git checkout master
+git remote -v
+git remote add upstream https://github.com/laravel/laravel.git OR git remote set-url upstream https://github.com/laravel/laravel.git
+git remote -v
+```
+Then we fetch the changes, deal with any conflicts and merge
+
+`git fetch upstream`
+
+Merge upstream with the appropriate local branch
+
+`git merge upstream/master ( maybe need to add: --allow-unrelated-histories)`
+
+and push
+
+`git push origin master`
