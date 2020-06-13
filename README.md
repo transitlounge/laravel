@@ -1,6 +1,6 @@
 ## About Transitlounge
 
-See [documentation](https://laravel.com/docs) 
+See [documentation](https://transitlounge.github.io/laravel/) 
 
 
 
