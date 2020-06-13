@@ -13,18 +13,16 @@ return [
     |
     */
 
-<<<<<<< HEAD
-=======
     'register' => 'Join us',
     'login' => 'Login',
-		'logout' => 'Logout',
+	'logout' => 'Logout',
     'name' => 'Name',
     'email' => 'E-mail',
     'password' => 'Password',
     'confirm' => 'Confirm password',
     'forgot' => 'Forgot Your Password?',
-		'remember' => 'Remember Me',
-		'no-account' => 'Don\'t have an account?',
+	'remember' => 'Remember Me',
+	'no-account' => 'Don\'t have an account?',
     'reset' => 'Reset Password',
     'resetlink' => 'Send Password Reset Link',
     'confirm' => 'Please confirm your password before continuing',
@@ -32,7 +30,6 @@ return [
     'check' => 'Before proceeding, please check your email for a verification link.',
     'notreceived' => 'If you did not receive the email',
     'requestnew' => 'click here to request another',
->>>>>>> upstream/master
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
