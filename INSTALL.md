@@ -52,13 +52,17 @@ php artisan ide-helper:meta
 php artisan ide-helper:models --nowrite
 ```
 
-## GIT 
-We want this transitlounge/laravel to follow changes in laravel/laravel
+## GIT FORK UPSTREAM 
+We want this transitlounge/laravel fork to follow changes in laravel/laravel origonal repo
 we setup the upsteam first:
 ```
 git checkout master
 git remote -v
-git remote add upstream https://github.com/laravel/laravel.git OR git remote set-url upstream https://github.com/laravel/laravel.git
+
+git remote add upstream https://github.com/laravel/laravel.git 
+OR 
+git remote set-url upstream https://github.com/laravel/laravel.git
+
 git remote -v
 ```
 Then we fetch the changes, deal with any conflicts and merge
