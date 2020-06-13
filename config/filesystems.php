@@ -79,11 +79,7 @@ return [
     */
 
     'links' => [
-<<<<<<< HEAD
-        public_path('storage') => storage_path('app/public'),
-=======
 				public_path('images') => storage_path('app/public/images'),
->>>>>>> upstream/master
     ],
 
 ];

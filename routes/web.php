@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
-    return view('welcome');
-});
-=======
     return view('pages.home');
 });
 
@@ -25,4 +21,3 @@ Auth::routes();
 
 Route::get('/home', 'PageController@index')->name('home');
 
->>>>>>> upstream/master

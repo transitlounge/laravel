@@ -1,10 +1,7 @@
 const mix = require('laravel-mix');
 
-<<<<<<< HEAD
-=======
 require('laravel-mix-tailwind');
 
->>>>>>> upstream/master
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -17,9 +14,6 @@ require('laravel-mix-tailwind');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-<<<<<<< HEAD
-    .sass('resources/sass/app.scss', 'public/css');
-=======
 	.sass("resources/sass/app.scss", "public/css").options({
 		processCssUrls: false
 	})
@@ -29,4 +23,3 @@ if (mix.inProduction()) {
   mix
    .version();
 }
->>>>>>> upstream/master
