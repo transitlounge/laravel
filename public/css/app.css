@@ -6912,6 +6912,10 @@ video {
   font-size: 12vmin;
 }
 
+.text-mediumview {
+  font-size: 2vmin;
+}
+
 .leading-3 {
   line-height: .75rem;
 }
@@ -19023,9 +19027,9 @@ video {
 
 .theme-light {
   --page-background-color: #fff;
-  --header-background-color: #fff;
+  --header-background-color: #dbe5eb81;
   --card-background-color: #dbe5eb81;
-  --article-background-color: #dbe9eb81;
+  --article-background-color: #c3daec81;
   --button-background-color: rgb(117, 164, 252);
   --menu-background-color: #333;
   --text-default-color: #333;
@@ -19051,6 +19055,30 @@ video {
   --text-accent-color: #47cdff;
   --text-accent-light-color: #8ae2fe;
   --text-error-color: red;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+  supported by Chrome, Opera and Firefox */
+}
+
+.menu {
+  visibility: visible;
+}
+
+button + .menu:active,
+button:focus + .menu {
+  visibility: visible;
 }
 
 @media (min-width: 640px) {
@@ -25098,6 +25126,10 @@ video {
 
   .sm\:text-bigview {
     font-size: 12vmin;
+  }
+
+  .sm\:text-mediumview {
+    font-size: 2vmin;
   }
 
   .sm\:leading-3 {
@@ -43257,6 +43289,10 @@ video {
     font-size: 12vmin;
   }
 
+  .md\:text-mediumview {
+    font-size: 2vmin;
+  }
+
   .md\:leading-3 {
     line-height: .75rem;
   }
@@ -61414,6 +61450,10 @@ video {
     font-size: 12vmin;
   }
 
+  .lg\:text-mediumview {
+    font-size: 2vmin;
+  }
+
   .lg\:leading-3 {
     line-height: .75rem;
   }
@@ -79569,6 +79609,10 @@ video {
 
   .xl\:text-bigview {
     font-size: 12vmin;
+  }
+
+  .xl\:text-mediumview {
+    font-size: 2vmin;
   }
 
   .xl\:leading-3 {

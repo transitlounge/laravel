@@ -12,18 +12,19 @@ return [
 
     'home' => [
 			'title' => 'Transitlounge',
-			'welcome' => 'Welcome',
+			'welcome' => 'Welkom',
 		],
     'about' => [
-			'title' => '{1} Learn more|{2} About',
-			'intro' => 'Here you can learn more about us',
+			'title' => '{1} Ontdek|{2} About',
+			'intro' => 'Hier kan je meer over ons ontdekken',
 		],
     'contact' => [
 			'title' => 'Contact',
-			'intro' => 'Here you can contact us',
+			'intro' => 'Hier kan je contact met ons opnemen',
 		],
     'network' => [
 			'title' => 'Network',
-			'intro' => 'This is our network',
+			'intro' => 'Dit is ons netwerk',
 		]
+
 ];

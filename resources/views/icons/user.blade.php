@@ -4,7 +4,6 @@
 		 class="relative"
 		 role="img"
 		 aria-labelledby="title">
-	<title id="title">menu icon</title>
   <g id="user-icon" class="fill-current text-default">
 	<circle id="back" cx="12" cy="12" r="12"/>
 	<ellipse id="body" fill="#FFFFFF" cx="12" cy="16.9" rx="6.8" ry="4.1"/>

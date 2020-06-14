@@ -9,10 +9,10 @@ mkdir database/data
 touch database/data/main.sqlite
 ```
 ## ENV/DB
-set DB, name, url
+remove DB_DATABASE variable from .env 
 ```
+touch database/database.sqlite
 php artisan migrate
-
 ```
 
 ## STORAGE
@@ -41,7 +41,7 @@ php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 Add `DEBUGBAR_ENABLED=true` to .env file
 
 ## VUE
-<!-- npm install vue --save-dev -->
+npm install vue --save-dev
 
 ## IDE HELPER
 ```
@@ -58,11 +58,9 @@ we setup the upsteam first:
 ```
 git checkout master
 git remote -v
-
 git remote add upstream https://github.com/laravel/laravel.git 
 OR 
 git remote set-url upstream https://github.com/laravel/laravel.git
-
 git remote -v
 ```
 Then we fetch the changes, deal with any conflicts and merge
@@ -83,17 +81,24 @@ with pull
 mkdir
 git init
 git pull https://github.com/transitlounge/laravel.git master
+git remote add origin https://github.com/transitlounge/wuji.git
+git push -u origin master
+git remote add upstream https://github.com/transitlounge/laravel.git
 git fetch upstream
+git merge upstream/master 
+
+
 ```
 when changes
 
 `git pull upstream master` 
 
-```
+
 or use the github templete to copy/fork the project
 but have not gotten the git pull upstream working here
 ```
 git clone https://github.com/transitlounge/test.git
 git remote add upstream https://github.com/transitlounge/laravel.git
+git fetch upstream --allow-unrelated-histories
 git pull upstream master --allow-unrelated-histories
 ```

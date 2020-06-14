@@ -13,7 +13,23 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
+		'register' => '{1} Doe mee|{2} Registreer',
+		'login' => 'Inloggen',
+		'logout' => 'Uitloggen',
+		'name' => 'Naam',
+		'email' => 'E-mail',
+		'password' => 'Wachtwoord',
+		'confirm' => 'Bevestig password',
+		'forgot' => 'Wachtwoord vergeten',
+		'remember' => 'Onthoudt Mij',
+		'no-account' => 'Nog geen account?',
+		'reset' => 'Reset Wachtwoord',
+		'resetlink' => 'Stuur een wachtwoord reset link',
+		'confirm' => 'Bevestig uw wachgtwoord voordat u doorgaat',
+		'verify' => 'Verifieer uw email',
+		'check' => 'Voordat u verder gaat, check eerst even uw email voor uw verificatie link.',
+		'notreceived' => 'Als u geen email heeft ontvangen',
+		'requestnew' => 'click hier om het nogmaal te proberen',
+		'failed' => 'Uw gegevens konden niet gevonden worden in ons systeem.',
+		'throttle' => 'Teveel inlog pogingen. Probeer het nog eens in :seconds seconden.',
 ];

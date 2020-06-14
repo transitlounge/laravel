@@ -23,7 +23,8 @@ module.exports = {
 				]
 			},
 			fontSize: {
-				bigview: "12vmin"
+				bigview: "12vmin",
+				mediumview: "2vmin"
 			},
 			letterSpacing: {
 				tightest: "-.1em",

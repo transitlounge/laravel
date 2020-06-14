@@ -19346,8 +19346,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mvh/Projects/TL/TRANSITLOUNGE/transitlounge-site2/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/mvh/Projects/TL/TRANSITLOUNGE/transitlounge-site2/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/mvh/Projects/TL/TRANSITLOUNGE/laravel/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/mvh/Projects/TL/TRANSITLOUNGE/laravel/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

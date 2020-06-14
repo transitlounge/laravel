@@ -5,7 +5,7 @@
 		 class="relative"
 		 role="img"
 		 aria-labelledby="title">
-	<title id="title">{{ config('app.name', 'Laravel') }}'s Logo</title>
+	{{-- <title id="title">{{ config('app.name', 'Laravel') }}'s Logo</title> --}}
 	<g id="tl-icon-symbol" class="fill-current text-default">
 		<rect id="tl-left-leg" x="5" width="6" height="24" shape-rendering="crispEdges"/>
 		<rect id="tl-right-leg" x="13" y="3" width="6" height="21" shape-rendering="crispEdges"/>

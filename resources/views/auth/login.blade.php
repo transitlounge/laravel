@@ -4,8 +4,8 @@
 	<div class="container mx-auto">
 		<div class="flex flex-wrap justify-center">
 			<div class="w-full max-w-sm">
-				<div class="flex flex-col break-words bg-white border border-2 rounded shadow-md">
-					<div class="font-semibold text-gray-700 py-3 px-6 mb-0">{{ __('auth.login') }}</div>
+				<div class="flex flex-col break-words bg-card border border-2 rounded shadow-md">
+					<div class="font-semibold text-gray-700 py-3 px-6 mb-0 bg-header">{{ __('auth.login') }}</div>
 					<form class="w-full p-6" method="POST" action="{{ route('login') }}">
 						@csrf
 						<div class="flex flex-wrap mb-6">

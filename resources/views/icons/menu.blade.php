@@ -4,7 +4,6 @@
 		 class="relative"
 		 role="img"
 		 aria-labelledby="title">
-	<title id="title">menu icon</title>
 	<g id="menu-icon" class="fill-current text-default">
 		<polyline id="bottom" points="24,21 0,21 0,17 24,17"/>
 		<polyline id="middle" points="24,14 0,14 0,10 24,10"/>
