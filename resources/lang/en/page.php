@@ -11,7 +11,7 @@ return [
     */
 
     'home' => [
-			'title' => 'Transitlounge',
+			'title' => 'Q Cards',
 			'welcome' => 'Welcome',
 		],
     'about' => [
