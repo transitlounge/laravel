@@ -41,7 +41,10 @@ php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 Add `DEBUGBAR_ENABLED=true` to .env file
 
 ## VUE
-npm install vue --save-dev
+`npm install vue --save-dev`
+you can run `php artisan ui vue` nu know that there is a lot of extra stuf that gets added such as jquery and bootstrap.
+Make sure you havew a clean repo so you see the changes
+
 
 ## IDE HELPER
 ```
