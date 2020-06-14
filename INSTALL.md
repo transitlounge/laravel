@@ -55,6 +55,12 @@ php artisan ide-helper:meta
 php artisan ide-helper:models --nowrite
 ```
 
+## OPTIMIZATION
+### PURGECSS
+`npm install laravel-mix-purgecss --save-dev`
+
+follow [this article](https://medium.com/@wearethreebears/using-purgecss-to-remove-unused-tailwind-classes-with-laravel-mix-92dffba21ed7)
+
 ## GIT FORK UPSTREAM 
 We want this transitlounge/laravel fork to follow changes in laravel/laravel origonal repo
 we setup the upsteam first:

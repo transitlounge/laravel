@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -865,6 +867,8 @@ video {
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   border-color: #63b3ed;
 }
+
+/* purgecss end ignore */
 
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
@@ -19025,6 +19029,46 @@ video {
   transition-delay: 1000ms;
 }
 
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
+.hover\:rotateY-180:hover {
+  transform: rotateY(180deg);
+}
+
+.active\:rotateY-180:active {
+  transform: rotateY(180deg);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+  supported by Chrome, Opera and Firefox */
+}
+
+p {
+  font-family: Inconsolata, Lucida Console, Courier New, monospace;
+}
+
 .theme-light {
   --page-background-color: #fff;
   --header-background-color: #dbe5eb81;
@@ -19055,30 +19099,6 @@ video {
   --text-accent-color: #47cdff;
   --text-accent-light-color: #8ae2fe;
   --text-error-color: red;
-}
-
-.noselect {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-  supported by Chrome, Opera and Firefox */
-}
-
-.menu {
-  visibility: visible;
-}
-
-button + .menu:active,
-button:focus + .menu {
-  visibility: visible;
 }
 
 @media (min-width: 640px) {
