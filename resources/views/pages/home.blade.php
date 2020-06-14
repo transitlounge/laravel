@@ -19,6 +19,7 @@
 
 		{{-- @include('components.article', ['title'=>'test','body'=>'This is an article component'])
 		@include('components.article', ['title'=>'test 2','body'=>'This is an article component too']) --}}
+
 	</div>
 @endsection
 @section('scripts')

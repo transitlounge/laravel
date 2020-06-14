@@ -23,3 +23,4 @@ Route::get('/home', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@defaultpage')->name('about');
 Route::get('/contact', 'PageController@defaultpage')->name('contact');
 Route::get('/network', 'PageController@defaultpage')->name('network');
+Route::get('/profile', 'PageController@defaultpage')->name('profile');

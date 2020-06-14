@@ -25,5 +25,9 @@ return [
     'network' => [
 			'title' => 'Network',
 			'intro' => 'This is our network',
+		],
+    'profile' => [
+			'title' => 'Profile',
+			'intro' => 'This is your profile page :name',
 		]
 ];
