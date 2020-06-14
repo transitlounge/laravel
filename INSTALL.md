@@ -103,6 +103,7 @@ but have not gotten the git pull upstream working here
 git clone https://github.com/transitlounge/test.git
 git remote add upstream https://github.com/transitlounge/laravel.git
 git fetch upstream --allow-unrelated-histories
-git pull upstream master --allow-unrelated-histories OR git merge upstream/master --allow-unrelated-**histories**
+git merge upstream/master (first time add the --allow-unrelated-histories flag)
 ```
+don't think you can savely do `git pull upstream master --allow-unrelated-histories`
 
