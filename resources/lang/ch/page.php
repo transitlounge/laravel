@@ -11,7 +11,7 @@ return [
     */
 
     'home' => [
-			'title' => 'Qcards',
+			'title' => '量子卡',
 			'welcome' => 'Welcome',
 			'intro' => 'Qcards are cards to help support energy work'
 		],
