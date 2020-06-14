@@ -105,3 +105,4 @@ git remote add upstream https://github.com/transitlounge/laravel.git
 git fetch upstream --allow-unrelated-histories
 git pull upstream master --allow-unrelated-histories
 ```
+if you get `fatal: Not possible to fast-forward, aborting` you might need to run `git merge` or `git merge upstream/master --allow-unrelated-histories`
