@@ -37,7 +37,11 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+				// bind Card on Username + ID
+				Route::bind('card', function($value) {
+					return \App\Card::where('id', $value)->orWhere('name', $value)->first();
+				});
 
         parent::boot();
     }

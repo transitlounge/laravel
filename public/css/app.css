@@ -19069,6 +19069,10 @@ p {
   font-family: Inconsolata, Lucida Console, Courier New, monospace;
 }
 
+.h40 {
+  min-height: 40px;
+}
+
 .theme-light {
   --page-background-color: #fff;
   --header-background-color: #dbe5eb81;

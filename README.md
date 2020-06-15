@@ -1,8 +1,11 @@
-## About transitlounge/laravel
+# About Qcards
 
-This is a fork from the main laravel Repo.
-
-See [documentation](https://transitlounge.github.io/laravel/) for details on how to create a project.
+## CARDS
+add cards to the `storage/images/cards` folder
+add details per card at `recources/lang/en/cards.php`
+make sure the seeder is loaded
+run `php artisan migrate:refresh --seed`
+or for just the cards `php artisan db:seed --class=CardSeeder`
 
 
 
