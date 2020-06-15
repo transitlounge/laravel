@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title'){{  trim(@lang("cards.general.name")@endsection
+@section('title')@lang("cards.general.name")@endsection
 @section('links')
 	@parent
 	<meta name="description" content="@lang("cards.general.name")">
