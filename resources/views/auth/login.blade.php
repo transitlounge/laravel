@@ -4,24 +4,24 @@
 	<div class="container mx-auto">
 		<div class="flex flex-wrap justify-center">
 			<div class="w-full max-w-sm">
-				<div class="flex flex-col break-words bg-card border border-2 rounded shadow-md">
-					<div class="font-semibold text-gray-700 py-3 px-6 mb-0 bg-header">{{ __('auth.login') }}</div>
+				<div class="flex flex-col break-words border border-2 rounded shadow-md bg-card">
+					<div class="px-6 py-3 mb-0 font-semibold text-gray-700 bg-header">{{ __('auth.login') }}</div>
 					<form class="w-full p-6" method="POST" action="{{ route('login') }}">
 						@csrf
 						<div class="flex flex-wrap mb-6">
-							<label for="email" class="block text-gray-700 text-sm font-bold mb-2">{{ __('auth.email') }}:</label>
+							<label for="email" class="block mb-2 text-sm font-bold text-gray-700">{{ __('auth.email') }}:</label>
 							<input id="email" type="email" class="form-input w-full @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 							@error('email')
-								<p class="text-red-500 text-xs italic mt-4">{{ $message }}</p>
+								<p class="mt-4 text-xs italic text-red-500">{{ $message }}</p>
 							@enderror
 						</div>
 						<div class="flex flex-wrap mb-6">
-							<label for="password" class="block text-gray-700 text-sm font-bold mb-2">
+							<label for="password" class="block mb-2 text-sm font-bold text-gray-700">
 									{{ __('Password') }}:
 							</label>
 							<input id="password" type="password" class="form-input w-full @error('password') border-red-500 @enderror" name="password" required>
 							@error('password')
-								<p class="text-red-500 text-xs italic mt-4">{{ $message }}</p>
+								<p class="mt-4 text-xs italic text-red-500">{{ $message }}</p>
 							@enderror
 						</div>
 						<div class="flex mb-6">
@@ -31,18 +31,18 @@
 							</label>
 						</div>
 						<div class="flex flex-wrap items-center">
-							<button type="submit" class="bg-blue-500 hover:bg-blue-700 text-gray-100 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+							<button type="submit" class="px-4 py-2 font-bold text-gray-100 bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline">
 									{{ __('auth.login') }}
 							</button>
 							@if (Route::has('password.request'))
-									<a class="text-sm text-blue-500 hover:text-blue-700 whitespace-no-wrap no-underline ml-auto" href="{{ route('password.request') }}">
+									<a class="ml-auto text-sm text-blue-500 no-underline whitespace-no-wrap hover:text-blue-700" href="{{ route('password.request') }}">
 											{{ __('auth.forgot') }}
 									</a>
 							@endif
 							@if (Route::has('register'))
-								<p class="w-full text-xs text-center text-gray-700 mt-8 -mb-4">
+								<p class="w-full mt-8 -mb-4 text-xs text-center text-gray-700">
 									{{ __("auth.no-account") }}
-									<a class="text-blue-500 hover:text-blue-700 no-underline" href="{{ route('register') }}">
+									<a class="text-blue-500 no-underline hover:text-blue-700" href="{{ route('register') }}">
 											{{ __('auth.register') }}
 									</a>
 								</p>

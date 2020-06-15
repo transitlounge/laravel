@@ -53,7 +53,7 @@ module.exports = {
 				article: "var(--article-background-color)",
 				button: "var(--button-background-color)",
 				menu: "var(--menu-background-color)"
-			}),
+			})
 		}
   },
   variants: {},
