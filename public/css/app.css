@@ -19069,6 +19069,22 @@ p {
   font-family: Inconsolata, Lucida Console, Courier New, monospace;
 }
 
+.wuji-icons {
+  margin: 5px;
+  width: 64px;
+  height: 64px;
+}
+
+.wuji-icons .symbol rect {
+  fill: var(--text-default-color);
+  stroke: none;
+}
+
+.wuji-icons .symbol circle {
+  fill: none;
+  stroke: var(--text-default-color);
+}
+
 .theme-light {
   --page-background-color: #fff;
   --header-background-color: #dbe5eb81;

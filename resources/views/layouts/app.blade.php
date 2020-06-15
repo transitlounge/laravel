@@ -22,7 +22,7 @@
 			@yield('content')
 		</main>
 		<footer class="flex flex-col text-sm text-center bg-menu text-inverse">
-			@include('layouts.footer')
+
 		</footer>
 	</div>
 	@yield('scripts')

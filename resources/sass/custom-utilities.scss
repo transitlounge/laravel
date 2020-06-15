@@ -25,3 +25,25 @@
 p {
 	@apply font-mono
 }
+
+
+.wuji-icons {
+	margin: 5px;
+	width: 64px;
+	height: 64px;
+
+	.symbol {
+		rect {
+			fill:var(--text-default-color);
+			stroke: none;
+		}
+
+	}
+	.symbol {
+		circle  {
+			fill: none;
+			stroke: var(--text-default-color);
+		}
+	}
+
+}

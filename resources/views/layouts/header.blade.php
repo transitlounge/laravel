@@ -6,7 +6,7 @@
 </div>
 {{-- MIDDLE HEADER SECTION --}}
 <div id="header-section-middle"  class="flex justify-center w-1/3">
-	<a href="/" class="flex items-center" title="click here to go home">@include('icons.logo')</a>
+	<a href="/" class="flex items-center text-2xl" title="click here to go home">@lang("page.home.title")</a>
 </div>
 {{-- RIGHT HEADER SECTION --}}
 <div id="header-section-right" class="flex items-center justify-end w-1/3">
